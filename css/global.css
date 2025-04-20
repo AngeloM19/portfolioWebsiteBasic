@@ -1,0 +1,65 @@
+.montserrat-semiBold {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: #1F262E;
+  }
+
+.montserrat-Regular {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #1F262E;
+}
+
+h1{
+    font-size:48px;
+    padding:0;
+    margin:0;
+}
+
+p{
+    font-size: 24px;
+    margin-top:12px;
+    margin-bottom: 24px;
+}
+
+.tab {
+    width:auto;
+    height: auto;
+    padding:4px 12px 4px 12px;
+    font-size: 24px;
+    background-color: white;
+    color: #1F262E;
+    border-color: #1F262E;
+    border-radius: 12px;
+    cursor:pointer;
+    transition: background-color 0.3s ease, border-style 0.3s ease;
+}
+
+div .tab:hover{
+    background-color: #D8DCE0;
+    border-style: dashed ;
+}
+
+div .tab.active{
+    background-color: #1F262E;
+    color: white;
+    border-color: #1F262E;
+}
+
+
+@media (max-width: 768px) {
+    h1{
+        font-size:32px;
+    }
+    p{
+        font-size: 16px;
+    }
+    .tab{
+        font-size:16px;
+    }
+}
+
