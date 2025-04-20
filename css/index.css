@@ -1,16 +1,20 @@
 .heroText{
-    margin: 10vh 50vw 2vh 10vw;
+    margin: 20vh 30% 2vh 30%;
 }
 
 .projectNavigation{
-    margin: 1vh 10vw 2vh 10vw;
+    margin: 1vh 10vw 2vh 30%;
     display: flex;
     gap:20px;
 }
 
+.tabContent{
+    margin: 3vh 10vw 2vh 30%;
+}
+
 @media (max-width: 768px) {
     .heroText{
-        margin: 5vh 1vw 2vh 1vw;
+        margin: 5vh 1vw 1vh 1vw;
     }
     .projectNavigation{
         margin: 1vh 1vw 2vh 1vw;

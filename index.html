@@ -6,6 +6,7 @@
   <title>My Portfolio</title>
   <link rel="stylesheet" href="css/index.css" />
   <link rel="stylesheet" href="css/global.css"/>
+  <link rel="stylesheet" href="css/card.css"/>
 </head>
 
 <body>
@@ -17,8 +18,12 @@
             and translating insights into data-driven design solutions that enhance usability and customer engagement.</p>
     </div>
     <div class="projectNavigation">
-        <button class="tab active montserrat-semiBold" data-tab="1">UI/UX</button>
-        <button class="tab montserrat-semiBold" data-tab="2">Digital Design</button>    
-        <button class="tab montserrat-semiBold" data-tab="3">3D Art</button>    
+        <button class="tab active montserrat-semiBold" onclick="openTab(event, 'Tab1')">UI/UX</button>
+        <button class="tab montserrat-semiBold" onclick="openTab(event, 'Tab2')">Digital Design</button>    
+        <button class="tab montserrat-semiBold" onclick="openTab(event, 'Tab3')">3D Art</button>    
     </div>
+    <!--Tab Content-->
+    <div id="Tab1" class="tabContent">
+    </div>
+    <script src="script/generateCard.js"></script>
 </body>

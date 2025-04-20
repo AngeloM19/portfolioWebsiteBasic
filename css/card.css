@@ -1,0 +1,36 @@
+.card{
+    height: auto;
+    width: 300px;
+    border-radius: 16px;
+    overflow: hidden;
+    display:inline-block;
+    border: 2px solid black;
+    transition: transform 0.3s ease;
+}
+
+.cardImage{
+    object-fit: cover;
+    height:300px;
+    width: 100%
+}
+
+.cardContent{
+    height: 180px;
+    width: 100%;
+    padding: 12px;
+}
+
+.card:hover{
+    box-shadow: 10px 10px;
+    transform:scale(1.1);
+}
+
+.cardTitle{
+    font-size: 20px;
+    margin-bottom: 8px;
+    width:100%;
+}
+
+.cardDescription{
+
+}
